@@ -536,6 +536,22 @@
       font-weight: 300;
     }
 
+    /* ─── Creative Side ─────────────────────────────────────────── */
+    .creative-body {
+      max-width: 680px;
+      color: var(--text-dim);
+      font-size: 16px;
+      line-height: 1.8;
+      font-weight: 300;
+    }
+
+    .creative-body p + p { margin-top: 18px; }
+
+    .creative-body strong {
+      color: var(--text);
+      font-weight: 500;
+    }
+
     /* ─── Footer ────────────────────────────────────────────────── */
     footer {
       padding: 48px 0;
@@ -715,6 +731,7 @@
       <span class="nav-name">Galvin</span>
       <ul class="nav-links">
         <li><a href="#about">About</a></li>
+        <li><a href="#creative">Creative</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#interests">Currently</a></li>
       </ul>
@@ -730,8 +747,8 @@
         if they <em>actually work.</em>
       </h1>
       <p class="hero-sub">
-        High school student. My dad and I started exploring AI together —
-        these are the projects that came out of it.
+        High school student building trading bots, knowledge tools, and early
+        agent systems through vibe coding with language models.
       </p>
       <div class="hero-cta">
         <a href="#projects" class="btn-primary">
@@ -765,13 +782,14 @@
             </div>
           </div>
           <p>
-            My dad and I got curious about what you could actually build with AI —
-            not the demos, but real systems. The trading bots started as a way to fund
-            API costs. They turned into an investigation into DeFi, crypto markets,
-            algorithmic strategies, and eventually autonomous agents.
+            I play electric guitar, but most of my creative energy now goes into
+            coding with language models. My dad and I started exploring AI together
+            because we wanted to see what we could build beyond simple demos.
           </p>
           <p>
-            All three projects below are ongoing and connected.
+            The process is a lot like working on music: start with a small idea,
+            test it, change it, and keep going until it starts to feel right. The
+            projects below came out of that loop.
           </p>
         </div>
         <div class="about-facts fade-in">
@@ -803,6 +821,40 @@
             </div>
           </div>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── Creative Side ────────────────────────────────────────────── -->
+  <section id="creative">
+    <div class="container">
+      <div class="section-header fade-in">
+        <div class="section-tag">Creative Side</div>
+        <h2 class="section-title">Vibe coding as a way to build</h2>
+        <p class="section-desc">
+          I use language models the way some people use a sketchbook: to get a
+          rough idea out quickly, then keep reshaping it until the system works.
+        </p>
+      </div>
+
+      <div class="creative-body fade-in">
+        <p>
+          The first version is almost never the point. I ask for something small,
+          run it, find where it breaks, and then start changing the logic. That
+          back-and-forth is where the creative part happens.
+        </p>
+        <p>
+          A cryptocurrency class at Irvine Valley College gave me the foundation
+          for DeFi, but building made it real. My Solana meme-coin bot started as
+          a way to cover API costs and turned into a deeper look at market behavior,
+          strategy failure, and automation.
+        </p>
+        <p>
+          When my notes on AI, crypto, and trading became too scattered to use, I
+          built <strong>llm-wiki</strong> so I could ask questions against what I
+          had actually read. Lately, I have been pushing toward agents that can
+          recover from failures and make strategy decisions with less supervision.
+        </p>
       </div>
     </div>
   </section>
