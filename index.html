@@ -436,6 +436,8 @@
       letter-spacing: 0.06em;
       text-align: center;
       overflow: hidden;
+      position: relative;
+      z-index: 1;
     }
 
     /* If you have a real screenshot, add class="project-img" to an <img> inside .project-visual */
@@ -444,6 +446,8 @@
       border-radius: 4px;
       border: 1px solid var(--border);
       object-fit: cover;
+      position: relative;
+      z-index: 1;
     }
 
     .screenshot-icon {
@@ -461,6 +465,7 @@
       background-size: 28px 28px;
       opacity: 0.4;
       pointer-events: none;
+      z-index: 0;
     }
 
     /* ─── How He Works ──────────────────────────────────────────── */
